@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    
+}
+
+body {
+    background: url('../resources/images/lovecutepicture.jpg') top center / cover no-repeat;
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+#main {
+    
+}
+
+#header {
+    height: 46.5px;
+    background-color: chartreuse;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+#nav {
+    display: inline-block;
+}
+
+#nav > li {
+    display: inline-block;
+}
+
+#nav li {
+    position: relative;
+}
+
+#nav > li > a {
+    color:navy;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+#nav li a {
+    text-decoration: none;
+    line-height: 46.5px;
+    padding: 0px 24px;
+    display: block;
+}
+#nav > li:hover > a{
+    color: black;
+    background-color: chocolate;
+}
+
+#content {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.content-header{
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#content h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#count-day h2 {
+    color: green;
+}
+
+#content .image {
+    /* width: calc(100%/2);
+    flex-direction: row;
+    /* float: left; */
+    /* display: flex;
+    justify-content: space-around;
+    padding: 10px; */ 
+    margin-bottom: 20px;
+}
